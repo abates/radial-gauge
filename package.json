@@ -1,5 +1,5 @@
 {
-  "name": "radial-gauge",
+  "name": "@abates/radial-gauge",
   "description": "Webcomponent radial-gauge following open-wc recommendations",
   "license": "MIT",
   "author": "radial-gauge",
