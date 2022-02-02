@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      background: #fafafa;
+    }
+  </style>
+</head>
+<body>
+  <div id="demo"></div>
+
+  <script type="module">
+    import { html, render } from 'lit';
+    import '../dist/src/radial-gauge.js';
+
+    render(
+      html`
+        <radial-gauge value="91" start-angle="-90" end-angle="90"></radial-gauge>
+        <radial-gauge value="40" start-angle="-135" end-angle="135"></radial-gauge>
+        <radial-gauge value="76" start-angle="0" end-angle="270"></radial-gauge>
+      `,
+      document.querySelector('#demo')
+    );
+  </script>
+</body>
+</html>
